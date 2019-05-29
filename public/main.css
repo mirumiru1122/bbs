@@ -1,0 +1,79 @@
+body{
+      padding: 20px;              /* 余白指定 */
+}
+h1 {
+  position: relative;
+  padding: 0.6em;
+  background: #3ef;
+}
+/*リストの点をなくす*/
+li {
+  list-style: none;
+}
+/* いちらん */
+#list{
+  font-size: 16px;
+  margin: 20px 0px 5px 0px;
+
+}
+#list:before {
+  background-color: #1B73BA;
+  border-radius: 2px;
+  content: "";
+  display: inline-block;
+  height: 15px;
+  margin-right:  8px;
+  vertical-align: middle;
+  width: 4px;
+}
+input[type = "submit"]{
+  height:2em;
+  width: 5em;
+  font-size:0.8em;
+}
+input[type = "password"]{
+  height:2em;
+  width: 5em;
+  font-size:0.8em;
+}
+form{
+  font-size:0.8em;
+}
+#mes{
+font-size:2.0em;
+}
+
+
+#er{ 
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #F781BE;
+}
+
+
+#resform div{
+  font-size: 20px;
+  position: relative;
+}
+
+
+#reslist{
+  font-size: 16px;
+  margin: 20px 0px 5px 0px;
+
+}
+#reslist:before {
+  background-color: #FFA500;
+  border-radius: 2px;
+  content: "";
+  display: inline-block;
+  height: 15px;
+  margin-right:  8px;
+  vertical-align: middle;
+  width: 4px;
+}
